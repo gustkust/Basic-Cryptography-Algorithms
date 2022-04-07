@@ -1,0 +1,8 @@
+Zaimplementować generator liczb pseudolosowych BBS
+
+Testy:
+1. Częstości - Zarówno liczba 1 jak i 0 powinny się mieścić w zakresie <9725; 10275>
+2. Serii - dla jedynek i zer liczymy: ile serii że jest dwa razy pod rząd, ile że trzy pod rząd itd, na końcu ile jest serii po 6 lub więcej razy pod rząd
+3. Test długiej serii - jeżeli wystąpi seria >= 26 to test nie jest zdany
+4. Test pokerowy - dla każdych kolejnych 4 (1-4, 5-8, itd.) bitów zamieniamy na wartości dziesiętne i liczymy, czy każda wartość (0 - 15) występuje po około 300 razy, oraz czy liczby pasują do wzoru (instrukcja ekursy)
+
